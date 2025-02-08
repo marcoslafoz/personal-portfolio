@@ -132,7 +132,7 @@ export const DemoSlider: React.FC = () => {
                       key={index}
                       alt={tech.title}
                       title={tech.title}
-                      className='object-contain h-6'
+                      className='object-contain h-6 transition-transform duration-300 hover:scale-125'
                     />
                   ))}
                 </div>
