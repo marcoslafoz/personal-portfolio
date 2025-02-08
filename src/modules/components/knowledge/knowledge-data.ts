@@ -10,7 +10,8 @@ interface Knowledge {
 export const myKnowledgeData: Knowledge[] = [
   {
     title: 'Frontend',
-    description: 'Desarrollo web con interfaces modernas y responsivas, enfocadas en UX y diseño intuitivo. Implementación de componentes reutilizables con tecnologías frontend y pruebas e2e.',
+    description:
+      'Desarrollo web con interfaces modernas y responsivas, enfocadas en UX y diseño intuitivo. Implementación de componentes reutilizables con tecnologías frontend y pruebas e2e.',
     techs: [
       {
         name: 'React',
@@ -36,7 +37,8 @@ export const myKnowledgeData: Knowledge[] = [
   },
   {
     title: 'Backend',
-    description: 'Diseño y desarrollo de arquitecturas escalables, creando APIs eficientes y seguras. Gestión de bases de datos relacionales y no relacionales.',
+    description:
+      'Diseño y desarrollo de arquitecturas escalables, creando APIs eficientes y seguras. Gestión de bases de datos relacionales y no relacionales.',
     techs: [
       {
         name: 'Java',
@@ -62,7 +64,8 @@ export const myKnowledgeData: Knowledge[] = [
   },
   {
     title: 'Sistemas',
-    description: 'Administración y mantenimiento de infraestructuras TI, asegurando la seguridad, disponibilidad y rendimiento. Implementación de virtualización, monitoreo y automatización de procesos.',
+    description:
+      'Administración y mantenimiento de infraestructuras TI, asegurando la seguridad, disponibilidad y rendimiento. Implementación de virtualización, monitoreo y automatización de procesos.',
     techs: [
       {
         name: 'Windows Server',
@@ -92,7 +95,8 @@ export const myKnowledgeData: Knowledge[] = [
   },
   {
     title: 'Diseño',
-    description: 'Creación de diseños visuales atractivos y funcionales, combinando creatividad y usabilidad. Prototipado rápido y una experiencia de usuario óptima.',
+    description:
+      'Creación de diseños visuales atractivos y funcionales, combinando creatividad y usabilidad. Prototipado rápido y una experiencia de usuario óptima.',
     techs: [
       {
         name: 'Photoshop',
@@ -101,7 +105,7 @@ export const myKnowledgeData: Knowledge[] = [
       {
         name: 'Figma',
         iconUrl: 'figma.svg',
-      }
+      },
     ],
   },
 ]

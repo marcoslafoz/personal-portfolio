@@ -1,15 +1,12 @@
-# ⏰ Horario de Clases con React, TS, Vite y Tailwind
+# 💼 Portafolio Personal
 
-🚀 Este proyecto es una herramienta interactiva para mostrar el horario de clases, destacando la clase actual, el tiempo restante de la clase en curso y un panel con información adicional, como fechas de exámenes y notas.
+🚀 Este proyecto es un portafolio interactivo que presenta mis habilidades, proyectos destacados y experiencia profesional, todo en una interfaz moderna y responsiva.
 
 ## 📦 Características
-- 🟦 **[TypeScript](https://www.typescriptlang.org/):** Aprovecha el poder del tipado estático para un desarrollo más robusto.
-- ⚡ **[Vite](https://vitejs.dev/):** Un entorno de desarrollo extremadamente rápido para aplicaciones web modernas.
-- 🎨 **[TailwindCSS](https://tailwindcss.com/):** Framework CSS de utilidades que permite una personalización rápida y fácil de la interfaz.
-- 💅 **[Sass](https://sass-lang.com/):** CSS mejorado para facilitar la escritura y organización de estilos complejos.
-- 🎭 **[React Router](https://reactrouter.com/):** Navegación declarativa para la aplicación.
-- ✨ **[Prettier](https://prettier.io/):** Formateador automático de código para mantener la consistencia.
-
+- 🟦 **[TypeScript](https://www.typescriptlang.org/):** Desarrollo robusto gracias al tipado estático.
+- ⚡ **[Vite](https://vitejs.dev/):** Entorno de desarrollo ultrarrápido para aplicaciones web modernas.
+- 🎨 **[TailwindCSS](https://tailwindcss.com/):** Framework de utilidades CSS para un diseño ágil y personalizado.
+- ✨ **[Prettier](https://prettier.io/):** Formateo automático para un código limpio y consistente.
 
 ## 🛠️ Iniciar el Proyecto
 
@@ -18,7 +15,8 @@
    ```bash
    npm install
    ```
-2. Inicia el servidor de desarrollo
+
+2. Inicia el servidor de desarrollo:
 
    ```bash
    npm run dev
