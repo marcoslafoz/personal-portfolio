@@ -10,8 +10,12 @@ export const Home: React.FC = () => {
     <div className='w-full flex flex-col lg:md:flex-row justify-center items-center gap-10 '>
       <div className='flex flex-row justify-center items-center gap-20'>
         <div className='hidden lg:md:flex lg:md:flex-col justify-center items-center gap-8'>
-          <img src={GithubOutlinedIcon} alt='Github' className='object-contain h-8' />
-          <img src={LinkedinOutlinedIcon} alt='Linkedin' className='object-contain h-8' />
+          <a href='https://github.com/marcoslafoz' target='_blank' rel='noreferrer'>
+            <img src={GithubOutlinedIcon} alt='Github' className='object-contain h-8' />
+          </a>
+          <a href='https://www.linkedin.com/in/marcoslafoz' target='_blank' rel='noreferrer'>
+            <img src={LinkedinOutlinedIcon} alt='Linkedin' className='object-contain h-8' />
+          </a>
         </div>
 
         <div className='flex flex-col justify-center items-start gap-4 max-w-[36rem]'>
@@ -23,8 +27,12 @@ export const Home: React.FC = () => {
           </div>
 
           <div className='flex flex-row lg:md:hidden my-4 justify-center items-center gap-8'>
-            <img src={GithubOutlinedIcon} alt='Github' className='object-contain h-8' />
-            <img src={LinkedinOutlinedIcon} alt='Linkedin' className='object-contain h-8' />
+            <a href='https://github.com/marcoslafoz' target='_blank' rel='noreferrer'>
+              <img src={GithubOutlinedIcon} alt='Github' className='object-contain h-8' />
+            </a>
+            <a href='https://www.linkedin.com/in/marcoslafoz' target='_blank' rel='noreferrer'>
+              <img src={LinkedinOutlinedIcon} alt='Linkedin' className='object-contain h-8' />
+            </a>
           </div>
 
           <div className='lg:md:mt-6'>
