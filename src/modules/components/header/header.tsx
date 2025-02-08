@@ -14,10 +14,10 @@ export const Header: React.FC = () => {
         <a href='#about-me' className='hover:text-[#00a085]'>
           Sobre mí
         </a>
-        <a href='#3' className='hover:text-[#00a085]'>
+        <a href='#knowledge' className='hover:text-[#00a085]'>
           Conocimientos
         </a>
-        <a href='#4' className='hover:text-[#00a085]'>
+        <a href='#projects' className='hover:text-[#00a085]'>
           Proyectos
         </a>
       </div>

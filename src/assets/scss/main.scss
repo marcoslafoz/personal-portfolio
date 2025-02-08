@@ -13,6 +13,10 @@ body {
   min-height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*========================== Font style ==========================*/
 
 .studentspace-regular {
