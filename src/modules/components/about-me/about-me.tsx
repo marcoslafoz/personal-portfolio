@@ -1,33 +1,21 @@
 import React from 'react'
 import { DownloadCvButton } from './download-cv-button'
 
-interface AboutMeProps { }
-
-export const AboutMe: React.FC<AboutMeProps> = props => {
-
+export const AboutMe: React.FC = () => {
   return (
+    <div className='w-full flex flex-col justify-center items-center gap-6'>
+      <div className='flex flex-col justify-center items-center gap-2'>
+        <div className='studentspace-bold text-5xl'>Sobre mí</div>
+        <div className='custom-color-secondary text-sm'>Introducción</div>
+      </div>
 
-
-    <div className="container-fluid justify-content-center">
-      <div className="row justify-content-center">
-        <div className="col col-md-4 align-self-center ">
-
-          <div className="row justify-content-center my-3">
-            <div className="row font-color-primary justify-content-center text-bold font-size-1">Sobre Mi</div>
-            <div className="row font-color-secondary justify-content-center font-size-4">Introducción</div>
-          </div>
-
-          <div className="row row-auto justify-content-center font-color-secondary font-size-3 text-center my-3">
-            Soy Marcos Lafoz, estudiante de Administracion de Sistemas informaticos en red en Zaragoza. Me apasiona la tecnología y la programación
-          </div>
-
-          <div className="row justify-content-center my-5"><DownloadCvButton/></div>
-
-        </div>
+      <div className='custom-color-secondary text-lg max-w-[36rem] justify-center text-center '>
+        Soy Marcos Lafoz, estudiante de Administracion de Sistemas informaticos en red en Zaragoza. Me apasiona la
+        tecnología y la programación
+      </div>
+      <div>
+        <DownloadCvButton cvFileUrl='https://drive.google.com/file/d/10M8m_JFyQu2HO7t2vK1BhT9nMaAQPoXh/view?usp=sharing' />
       </div>
     </div>
-
-
   )
 }
-

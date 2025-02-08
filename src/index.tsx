@@ -1,16 +1,10 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
+import '../src/assets/scss/main.scss'
+import { App } from './modules/App.tsx'
+import React from 'react'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Main } from './modules/scenes/main'
-import reportWebVitals from './modules/utils/reportWebVitals'
-
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
-
-root.render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Main />
+    <App />
   </React.StrictMode>
 )
-
-reportWebVitals()

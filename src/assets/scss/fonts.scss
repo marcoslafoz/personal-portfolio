@@ -1,0 +1,33 @@
+/*========================== Font Faces ==========================*/
+
+/*============== StudentSpace ==============*/
+
+@font-face {
+  font-family: 'StudentSpace-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('StudentSpace'), url(../../assets/fonts/StudentSpace.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'StudentSpace-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('StudentSpace-Medium'), url(../../assets/fonts/StudentSpace-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'StudentSpace-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('StudentSpace-Bold'), url(../../assets/fonts/StudentSpace-Bold.ttf) format('truetype');
+}
+
+/*============== Montserrat ==============*/
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat-ExtraBold'), url(../../assets/fonts/Montserrat-ExtraBold.ttf) format('truetype');
+}

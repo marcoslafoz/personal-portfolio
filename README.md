@@ -1,13 +1,25 @@
-# Portfolio Personal con React y TypeScript
-Este es un proyecto de un portfolio personal construido con React y TypeScript. Está diseñado para mostrar mis habilidades y proyectos de una manera atractiva y funcional. El objetivo es tener una página web dinámica y profesional para presentarme y exhibir mi trabajo.# Portfolio Personal con React y TypeScript
+# ⏰ Horario de Clases con React, TS, Vite y Tailwind
 
-Este es un proyecto de un **portfolio personal** construido con **React** y **TypeScript**. Está diseñado para mostrar mis habilidades y proyectos de una manera atractiva y funcional. El objetivo es tener una página web dinámica y profesional para presentarme y exhibir mi trabajo.
+🚀 Este proyecto es una herramienta interactiva para mostrar el horario de clases, destacando la clase actual, el tiempo restante de la clase en curso y un panel con información adicional, como fechas de exámenes y notas.
 
-## Tareas por hacer
+## 📦 Características
+- 🟦 **[TypeScript](https://www.typescriptlang.org/):** Aprovecha el poder del tipado estático para un desarrollo más robusto.
+- ⚡ **[Vite](https://vitejs.dev/):** Un entorno de desarrollo extremadamente rápido para aplicaciones web modernas.
+- 🎨 **[TailwindCSS](https://tailwindcss.com/):** Framework CSS de utilidades que permite una personalización rápida y fácil de la interfaz.
+- 💅 **[Sass](https://sass-lang.com/):** CSS mejorado para facilitar la escritura y organización de estilos complejos.
+- 🎭 **[React Router](https://reactrouter.com/):** Navegación declarativa para la aplicación.
+- ✨ **[Prettier](https://prettier.io/):** Formateador automático de código para mantener la consistencia.
 
-- **Añadir experiencia laboral**: Incluir una sección detallada sobre mi experiencia profesional, con fechas y roles desempeñados.
-- **Destacar habilidad principal**: Agregar una sección donde resalte mi habilidad principal, con ejemplos o proyectos relacionados.
-- **Incluir educación**: Añadir una sección de formación académica, especificando los estudios realizados y las instituciones.
-- **Arreglar footer responsive**: Mejorar la visibilidad y funcionalidad del pie de página en dispositivos móviles, asegurando que se adapte correctamente.
-- **Componente de proyectos con slider**: Crear un componente que muestre los proyectos en un slider, donde cada imagen actúe como un enlace a más detalles.
-- **Barra vertical con puntos de navegación**: Implementar una barra vertical con puntos que actúan como enlaces a las secciones correspondientes de la página. Esta barra deberá estar en **position absolute** y debe tener la opción de ocultarse cuando no sea necesaria.
+
+## 🛠️ Iniciar el Proyecto
+
+1. Instala las dependencias:
+   
+   ```bash
+   npm install
+   ```
+2. Inicia el servidor de desarrollo
+
+   ```bash
+   npm run dev
+   ```

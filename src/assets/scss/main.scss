@@ -1,0 +1,52 @@
+@import url('./variables.scss');
+@import url('./fonts.scss');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*========================== Default ==========================*/
+
+body {
+  color: var(--color-primary);
+  font-family: var(--studentspace-regular);
+  min-height: 100vh;
+}
+
+/*========================== Font style ==========================*/
+
+.studentspace-regular {
+  font-family: var(--studentspace-regular);
+}
+
+.studentspace-medium {
+  font-family: var(--studentspace-medium);
+}
+
+.studentspace-bold {
+  font-family: var(--studentspace-bold);
+}
+
+.montserrat-extrabold {
+  font-family: var(--montserrat-extrabold);
+}
+
+/*========================== Color ==========================*/
+
+.custom-color-primary {
+  color: var(--color-primary);
+}
+
+.custom-color-secondary {
+  color: var(--color-secondary);
+}
+
+.custom-color-terciary {
+  color: var(--color-terciary);
+}
+
+/*========================== Background color ==========================*/
+
+.custom-bg-color-primary {
+  background-color: var(--color-primary);
+}

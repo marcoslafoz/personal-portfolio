@@ -1,39 +1,27 @@
 import React from 'react'
-import './footer.css'
 
-import githubIcon from '../../../assets/img/github.svg'
-import linkedinIcon from '../../../assets/img/linkedin.svg'
-import gmailIcon from '../../../assets/img/mail.svg'
+import githubIcon from '/assets/icons/github.svg'
+import linkedinIcon from '/assets/icons/linkedin.svg'
+import gmailIcon from '/assets/icons/mail.svg'
 
-
-interface FooterProps { }
-
-export const Footer: React.FC<FooterProps> = () => {
-
+export const Footer: React.FC = () => {
   return (
-
-    <footer className="d-flex flex-wrap justify-content-between align-items-center p-4 border-top">
-      <div className="col-md-4 d-flex align-items-center">
-        <span className='text-bold font-size-2 text-white' >marcos</span>
-        <span className='font-size-2 text-white'>lafoz</span>
+    <div className='w-full flex flex-col gap-4 lg:md:flex-row justify-between items-center p-8 custom-bg-color-primary custom-color-terciary'>
+      <div className='text-3xl'>
+        <span className='studentspace-bold '>marcos</span>lafoz
       </div>
-      <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li className="ms-3">
-          <div className="row align-items-cente gap-2">
-            <div className="col col-auto align-self-end bg-error">
-              <a href="https://github.com/marcoslafoz" target="_blank" rel="noreferrer"><img className="footer-icons-img" src={githubIcon} alt='Github' /></a>
-            </div>
-            <div className="col col-auto align-self-end bg-error">
-              <a href="https://www.linkedin.com/in/marcoslafoz" target="_blank" rel="noreferrer"><img className="footer-icons-img" src={linkedinIcon} alt='Linkedin' /></a>
-            </div>
-            <div className="col col-auto align-self-end bg-error">
-              <a href="mailto:marcos.lafoz96@gmail.com" target="_blank" rel="noreferrer"><img className="footer-icons-img" src={gmailIcon} alt='Gmail' /></a>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </footer>
 
+      <div className='flex flex-row gap-4 flex-wrap lg:md:gap-8 justify-between items-center text-sm font-bold'>
+        <a href='https://github.com/marcoslafoz' target='_blank' rel='noreferrer'>
+          <img className='object-contain h-5 ' src={githubIcon} alt='Github' />
+        </a>
+        <a href='https://www.linkedin.com/in/marcoslafoz' target='_blank' rel='noreferrer'>
+          <img className='object-contain h-5' src={linkedinIcon} alt='Linkedin' />
+        </a>
+        <a href='mailto:marcos.lafoz96@gmail.com' target='_blank' rel='noreferrer'>
+          <img className='object-contain h-3.5' src={gmailIcon} alt='Gmail' />
+        </a>
+      </div>
+    </div>
   )
 }
-
