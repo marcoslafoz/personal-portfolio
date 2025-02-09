@@ -18,6 +18,10 @@ export const myKnowledgeData: Knowledge[] = [
         iconUrl: 'react.svg',
       },
       {
+        name: 'GraphQL',
+        iconUrl: 'graphql.svg',
+      },
+      {
         name: 'Tailwind CSS',
         iconUrl: 'tailwind.svg',
       },
