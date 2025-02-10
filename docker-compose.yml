@@ -1,0 +1,8 @@
+services:
+  personal-portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5171:80"
+    restart: always
