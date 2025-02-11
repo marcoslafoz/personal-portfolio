@@ -28,7 +28,6 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy environment file
 COPY .env .env
 
-
 # Expose port 80
 EXPOSE 80
 
