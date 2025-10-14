@@ -80,10 +80,6 @@ export const myKnowledgeData: Knowledge[] = [
         iconUrl: 'linux.svg',
       },
       {
-        name: 'Samba',
-        iconUrl: 'samba.svg',
-      },
-      {
         name: 'Docker',
         iconUrl: 'docker.svg',
       },
