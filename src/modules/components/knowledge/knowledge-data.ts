@@ -18,6 +18,10 @@ export const myKnowledgeData: Knowledge[] = [
         iconUrl: 'react.svg',
       },
       {
+        name: 'NextJS',
+        iconUrl: 'nextjs.svg',
+      },
+      {
         name: 'GraphQL',
         iconUrl: 'graphql.svg',
       },
@@ -72,20 +76,27 @@ export const myKnowledgeData: Knowledge[] = [
       'Administración y mantenimiento de infraestructuras TI, asegurando la seguridad, disponibilidad y rendimiento. Implementación de virtualización, monitoreo y automatización de procesos.',
     techs: [
       {
-        name: 'Windows Server',
-        iconUrl: 'windows-server.svg',
-      },
-      {
-        name: 'Linux',
-        iconUrl: 'linux.svg',
+        name: 'Proxmox',
+        iconUrl: 'proxmox.svg',
       },
       {
         name: 'Docker',
         iconUrl: 'docker.svg',
+      }, {
+        name: 'Kubernetes',
+        iconUrl: 'kubernetes.png',
+      },
+      {
+        name: 'Wireguard',
+        iconUrl: 'wireguard.png',
       },
       {
         name: 'Zabbix',
         iconUrl: 'zabbix.svg',
+      },
+      {
+        name: 'Windows Server',
+        iconUrl: 'windows-server.svg',
       },
       {
         name: 'Packet Tracer',
@@ -98,10 +109,6 @@ export const myKnowledgeData: Knowledge[] = [
     description:
       'Creación de diseños visuales atractivos y funcionales, combinando creatividad y usabilidad. Prototipado rápido y una experiencia de usuario óptima.',
     techs: [
-      {
-        name: 'Photoshop',
-        iconUrl: 'photoshop.svg',
-      },
       {
         name: 'Figma',
         iconUrl: 'figma.svg',
