@@ -26,7 +26,7 @@ export const demoData: DemoSection[] = [
         text: 'StudentSpace es la mejor herramienta para estudiantes. Organiza tareas, exámenes y notas en una agenda digital intuitiva y eficiente.',
       },
       {
-        text: 'Usando React + TailwindCSS con un backend en Springboot. Todo ello Dockerizado en mi servidor de Ubuntu.',
+        text: 'Usando React + TailwindCSS con un backend en Springboot. Todo ello Dockerizado en mi servidor de proxmox.',
       },
     ],
     techIcons: [
@@ -81,7 +81,7 @@ export const demoData: DemoSection[] = [
     projectUrl: 'https://dermovision.lafoz.dev/',
     description: [
       { text: 'Landing page para una clínica estética con modo oscuro.' },
-      { text: 'Desarrollada con Astro y Tailwind. Enfocada en rendimiento, SEO y diseño moderno. Todo ello Dockerizado en mi servidor de Ubuntu.' },
+      { text: 'Desarrollada con Astro y Tailwind. Enfocada en rendimiento, SEO y diseño moderno. Todo ello Dockerizado en mi servidor de proxmox.' },
     ],
     techIcons: [
       {
