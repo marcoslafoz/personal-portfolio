@@ -77,7 +77,7 @@ export const myKnowledgeData: Knowledge[] = [
     techs: [
       {
         name: 'Proxmox',
-        iconUrl: 'proxmox.svg',
+        iconUrl: 'proxmox.png',
       },
       {
         name: 'Docker',
