@@ -14,7 +14,7 @@ export const AboutMe: React.FC = () => {
         tecnología y la programación
       </div>
       <div>
-        <DownloadCvButton cvFileUrl='https://drive.google.com/file/d/1VfWByPcF49WKa3ny3vg1X_F3reXhotQQ/view?usp=sharing' />
+        <DownloadCvButton cvFileUrl='https://drive.google.com/file/d/15OvnYhAnArPNz3tkUPFIAwGo9g4pRX4a/view?usp=sharing' />
       </div>
     </div>
   )
